@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @page_template.name %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @page_template.content %>
+</p>
+
+
+<%= link_to 'Edit', edit_page_template_path(@page_template) %> |
+<%= link_to 'Back', page_templates_path %>
